@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="3" name="Raccoon(failed)" parallel="methods">
+    <classes>
+      <class name="Test.test_get">
+        <methods>
+          <include name="get_test_req_chennai"/>
+          <include name="get_test_req_mumbai"/>
+        </methods>
+      </class> <!-- Test.test_get -->
+    </classes>
+  </test> <!-- Raccoon(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
